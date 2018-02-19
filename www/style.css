@@ -1,0 +1,32 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.photo {
+    width: 225px;
+    margin: 0.7em 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #4d4dff;
+}
+
+h1, h3, p {
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    line-height: 1.7em;
+}
+
+h3 {
+    font-weight: 300;
+}
+body {
+    font-family: Helvetica, sans-serif;
+}
